@@ -27,13 +27,13 @@
 ## 📷 Screenshots
 
 ### 🏠 Home Page  
-![Home](./screenshots/home.png)
+![Home](./Screenshots/home.png)
 
 ### 📌 Pinned & Unpinned Notes  
-![Pinned Notes](./screenshots/pinned.png)
+![Pinned Notes](./Screenshots/pinned.png)
 
 ### 🗃️ Archive Page  
-![Archive](./screenshots/archive.png)
+![Archive](./Screenshots/archive.png)
 
 > _Place your screenshots in a folder named `screenshots` inside your project directory. Make sure to use relative paths like `./screenshots/home.png`._
 
