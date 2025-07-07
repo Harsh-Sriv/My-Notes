@@ -27,13 +27,13 @@ const noteCard = ({ id, title, note, pinned }) => `
       <p>${note || "(no content)"} </p>
 
       <button class="btn del-btn"     data-type="delete"  data-id="${id}">
-          <img src="/Assets/delete.svg"   alt="Delete">
+          <img src="Assets/delete.svg"   alt="Delete">
       </button>
       <button class="btn archive-btn" data-type="archive" data-id="${id}">
-          <img src="/Assets/archive.svg"  alt="Archive">
+          <img src="Assets/archive.svg"  alt="Archive">
       </button>
       <button class="btn pin-btn"     data-type="pin"     data-id="${id}">
-          <img src="${pinned ? "/Assets/unpin.svg" : "/Assets/pin.svg"}"
+          <img src="${pinned ? "Assets/unpin.svg" : "Assets/pin.svg"}"
                alt="${pinned ? "Unpin" : "Pin"}">
       </button>
   </div>

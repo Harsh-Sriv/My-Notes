@@ -12,10 +12,10 @@ const archiveCard = ({ id, title, note }) => `
     <p>${note || "(no content)"} </p>
 
     <button class="btn del-btn" data-type="delete" data-id="${id}">
-      <img src="/Assets/delete.svg" alt="Delete">
+      <img src="Assets/delete.svg" alt="Delete">
     </button>
     <button class="btn pin-btn" data-type="unarchive" data-id="${id}">
-      <img src="/Assets/unarchive.svg" alt="Unarchive">
+      <img src="Assets/unarchive.svg" alt="Unarchive">
     </button>
   </div>
 `;
