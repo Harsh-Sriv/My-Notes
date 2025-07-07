@@ -56,3 +56,6 @@
    ```bash
    git clone https://github.com/yourusername/my-notes.git
    cd my-notes
+
+2. Or you can directly access the website at
+   https://harsh-sriv.github.io/My-Notes/
