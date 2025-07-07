@@ -1,0 +1,135 @@
+.d-none {
+    display: none;
+}
+
+.notes{
+    margin:20px;
+}
+
+.notes-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    justify-content: center;
+}
+
+.single-note{
+    background-color: var(--secondary-color);
+    height:200px;
+    min-width:20rem;
+    max-width: 400px;
+    max-height: 200px;
+    flex:1;
+    padding:10px;
+    position:relative;
+    border-radius: 10px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.single-note h3{
+    font-size: 1.2rem;
+    margin: 0;
+    width: 100%;
+    word-break: break-word;
+    white-space: pre-line;
+}
+
+.single-note p{
+    font-size: 1rem;
+    margin: 0;
+    width: 100%;
+    flex: 1;
+    word-break: break-word;
+    white-space: pre-line;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.btn{
+    border: none;
+    background-color: rgb(63, 63, 63);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    cursor: pointer;
+}
+
+.pin-btn{
+    bottom: -15px;
+    right:10px;
+}
+
+.archive-btn{
+    bottom: -15px;
+    right: 45px;
+}
+
+.del-btn{
+    bottom: -15px;
+    right: 80px;
+}
+
+@media (max-width: 900px) {
+    .notes-container {
+        gap: 10px;
+    }
+    .single-note {
+        min-width: 14rem;
+        max-width: 90vw;
+        height: 180px;
+        max-height: 180px;
+    }
+    .del-btn {
+        right: 60px;
+    }
+    .archive-btn {
+        right: 30px;
+    }
+    .pin-btn {
+        right: 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    .notes {
+        margin: 10px;
+    }
+    .notes-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .single-note {
+        min-width: 90vw;
+        max-width: 98vw;
+        height: auto;
+        max-height: none;
+        padding-bottom: 40px;
+    }
+    .btn {
+        width: 28px;
+        height: 28px;
+    }
+    .del-btn {
+        right: 70px;
+        bottom: -12px;
+    }
+    .archive-btn {
+        right: 38px;
+        bottom: -12px;
+    }
+    .pin-btn {
+        right: 6px;
+        bottom: -12px;
+    }
+}

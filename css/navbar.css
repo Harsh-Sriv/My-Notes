@@ -1,0 +1,43 @@
+header{
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+a:hover{
+    background-color:rgb(253, 200, 136);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.active{
+    padding: 5px;
+    background-color: bisque;
+    border-radius: 4px;
+}
